@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Meyer reset -->
+		<link
+			rel="stylesheet"
+			href="https://meyerweb.com/eric/tools/css/reset/reset.css"
+		/>
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="../css/all.min.css" />
+		<link rel="stylesheet" href="../css/fontawesome.min.css" />
+		<!-- App Dev Tracker css file -->
+		<link rel="stylesheet" href="../css/style.css" />
+		<title>App Dev Tracker</title>
+	</head>
+	<body>
+		<header class="dashboard-header">
+			<h1 class="h1">Dashboard</h1>
+
+			<h3 class="h3">Welcome <span class="welcom">Isaac smith</span></h3>
+			<nav class="secondary-nav">
+				<ul>
+					<li>
+						<a href="./createProject.html"
+							><i class="far fa-plus-square icon"></i
+							><span class="li-name">New Project</span></a
+						>
+					</li>
+					<li>
+						<a href="#"
+							><i class="far fa-check-square icon"></i
+							><span class="li-name">Completed</span></a
+						>
+					</li>
+					<li>
+						<a href="#"
+							><i class="far fa-square icon"></i
+							><span class="li-name">In-progress</span></a
+						>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="projects">
+			<div class="card">
+				<a href="#" class="card-project">
+					<div class="status runing-late"><p>late</p></div>
+					<div class="card-details">
+						<p class="name">Noteful</p>
+						<p class="due"><span class="title">Due Date</span> June 13, 2020</p>
+					</div>
+				</a>
+			</div>
+
+			<div class="card">
+				<a href="#" class="card-project">
+					<div class="status past-due"><p>pasted</p></div>
+					<div class="card-details">
+						<p class="name">Shopping List</p>
+						<p class="due"><span class="title">Due Date</span> June 3, 2019</p>
+					</div>
+				</a>
+			</div>
+
+			<div class="card">
+				<a href="#" class="card-project">
+					<div class="status on-time"><p>on-time</p></div>
+					<div class="card-details">
+						<p class="name">Noteful</p>
+						<p class="due">
+							<span class="title">Due Date</span> August 16, 2020
+						</p>
+					</div>
+				</a>
+			</div>
+
+			<div class="card">
+				<a href="#" class="card-project">
+					<div class="status completed"><p>completed</p></div>
+					<div class="card-details">
+						<p class="name">Buget App</p>
+						<p class="due"><span class="title">Due Date</span> may 4, 2020</p>
+					</div>
+				</a>
+			</div>
+		</main>
+	</body>
+</html>

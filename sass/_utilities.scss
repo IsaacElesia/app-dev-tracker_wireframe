@@ -1,0 +1,35 @@
+/* **************************
+          Headers
+*****************************/
+%header {
+	font-family: 'Roboto', 'Helvetica Neue', helvetica, sans-serif;
+	font-weight: 300;
+	text-transform: capitalize;
+}
+
+.h1 {
+	@extend %header;
+	font-size: 3.5rem;
+}
+.h2 {
+	@extend %header;
+	font-size: 3rem;
+}
+
+.h2-section {
+	@extend %header;
+	font-size: 1.8em;
+	padding: 1rem;
+}
+
+.h3 {
+	@extend %header;
+	font-size: 2rem;
+}
+
+/* *******************************
+				Paragraphs
+*********************************/
+p {
+	font-family: 'Roboto', 'Helvetica Neue', helvetica, sans-serif;
+}

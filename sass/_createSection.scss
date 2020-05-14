@@ -1,0 +1,54 @@
+.reg-form {
+	&-header {
+		display: flex;
+		justify-content: space-between;
+		text-align: left;
+		background-color: $color-2;
+		color: $textCol-1;
+		width: 100%;
+	}
+
+	&-btn {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		a {
+			display: block;
+			text-decoration: none;
+			text-transform: uppercase;
+			color: $textCol-1;
+			padding: 1.8rem;
+
+			&:hover {
+				cursor: pointer;
+				background-color: #eee;
+				color: $color-3;
+			}
+		}
+	}
+}
+
+@media (max-width: 400px) {
+	.reg-form {
+		&-btn a {
+			padding: 0.8rem;
+		}
+	}
+
+	.h2-section {
+		font-size: 1.4em;
+	}
+}
+
+@media (max-width: 350px) {
+	.reg-form {
+		&-btn a {
+			padding: 0.5rem;
+		}
+	}
+
+	.h2-section {
+		font-size: 1.2em;
+	}
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Meyer reset -->
+		<link
+			rel="stylesheet"
+			href="https://meyerweb.com/eric/tools/css/reset/reset.css"
+		/>
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="../css/all.min.css" />
+		<link rel="stylesheet" href="../css/fontawesome.min.css" />
+		<!-- App Dev Tracker css file -->
+		<link rel="stylesheet" href="../css/style.css" />
+		<title>App Dev Tracker</title>
+	</head>
+	<body>
+		<header>
+			<div class="page-header">
+				<h1 class="h1">dashboard</h1>
+				<a href="./addTask.html"><i class="far fa-plus-square icon"></i></a>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="description">
+				<div class="img">
+					<h3 class="h3">dashboard</h3>
+					<img class="page-img" src="../img/dashboard.png" alt="dashboard" />
+				</div>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem commodi
+					blanditiis cumque! Molestiae aut, necessitatibus quaerat, at
+					perspiciatis iusto, cum voluptas sit maxime vitae animi ad ab rerum et
+					voluptatem?Ratione sed quisquam perferendis. Officiis ipsam dolore,
+					eum repudiandae aperiam eius iste nobis nihil doloribus quo atque quas
+				</p>
+			</section>
+
+			<section class="page-main">
+				<nav class="secondary-nav">
+					<ul>
+						<li>
+							<a href="./addTask.html"
+								><i class="far fa-plus-square icon"></i
+								><span class="li-name">Add task</span></a
+							>
+						</li>
+						<li>
+							<a href="#"
+								><i class="far fa-check-square icon"></i
+								><span class="li-name">Completed</span></a
+							>
+						</li>
+						<li>
+							<a href="#"
+								><i class="far fa-square icon"></i
+								><span class="li-name">In-progress</span></a
+							>
+						</li>
+					</ul>
+				</nav>
+
+				<div class="card">
+					<a href="#" class="card-project">
+						<div class="status runing-late"><p>late</p></div>
+						<div class="card-details">
+							<p class="task">
+								When user click new-project on their dashboard, display the
+								create project form
+							</p>
+							<p class="due">
+								<span class="title">Due Date</span> June 13, 2020
+							</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="card">
+					<a href="#" class="card-project">
+						<div class="status past-due"><p>pasted</p></div>
+						<div class="card-details">
+							<p class="task">
+								List all project ones the user opens dashboard page
+							</p>
+							<p class="due">
+								<span class="title">Due Date</span> June 3, 2019
+							</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="card">
+					<a href="#" class="card-project">
+						<div class="status on-time"><p>on-time</p></div>
+						<div class="card-details">
+							<p class="task">
+								Clicking completed should filter the project list and show only
+								the completed projects
+							</p>
+							<p class="due">
+								<span class="title">Due Date</span> August 16, 2020
+							</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="card">
+					<a href="#" class="card-project">
+						<div class="status completed"><p>completed</p></div>
+						<div class="card-details">
+							<p class="task">
+								Clicking in-progress should filter the project list and show
+								only the projects that is yet to be completed
+							</p>
+							<p class="due"><span class="title">Due Date</span> may 4, 2020</p>
+						</div>
+					</a>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>

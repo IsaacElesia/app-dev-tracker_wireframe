@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Meyer reset -->
+		<link
+			rel="stylesheet"
+			href="https://meyerweb.com/eric/tools/css/reset/reset.css"
+		/>
+		<!-- App Dev Tracker css file -->
+		<link rel="stylesheet" href="../css/style.css" />
+		<title>App Dev Tracker</title>
+	</head>
+	<body>
+		<main class="reg">
+			<div class="reg-form-header">
+				<h2 class="h2-section">New Section</h2>
+
+				<div class="reg-form-btn">
+					<a href="#"
+						><i class="far fa-plus-square icon"></i
+						><span class="li-name">Add task</span></a
+					>
+
+					<a href="#"
+						><i class="far fa-plus-square icon"></i
+						><span class="li-name">Asign</span></a
+					>
+				</div>
+			</div>
+			<form class="reg-form">
+				<fieldset class="form-group">
+					<label for="name" class="reg-form-label">Name</label>
+					<input
+						type="text"
+						name="name"
+						id="name"
+						placeholder="Project name"
+						required
+						class="reg-form-input"
+					/>
+
+					<label for="dueDate" class="reg-form-label">Due date</label>
+					<input
+						type="datetime-local"
+						name="dueDate"
+						id="dueDate"
+						required
+						class="reg-form-input"
+					/>
+					<label for="wireframe" class="reg-form-label">Wireframe</label>
+					<input type="file" name="wireframe" id="wireframe" accept="image/*" />
+					<label for="description" class="reg-form-label">Description</label>
+					<textarea
+						name="description"
+						id="description"
+						class="description"
+					></textarea>
+				</fieldset>
+
+				<button type="submit" class="btn-submit">Create</button>
+			</form>
+		</main>
+	</body>
+</html>

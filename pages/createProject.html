@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Meyer reset -->
+		<link
+			rel="stylesheet"
+			href="https://meyerweb.com/eric/tools/css/reset/reset.css"
+		/>
+		<!-- App Dev Tracker css file -->
+		<link rel="stylesheet" href="../css/style.css" />
+		<title>App Dev Tracker</title>
+	</head>
+	<body>
+		<main class="reg">
+			<h2 class="h2">New Project</h2>
+			<form class="reg-form">
+				<fieldset class="form-group">
+					<label for="name" class="reg-form-label">Name</label>
+					<input
+						type="text"
+						name="name"
+						id="name"
+						placeholder="Project name"
+						required
+						class="reg-form-input"
+					/>
+
+					<label for="startDate" class="reg-form-label">Start Date</label>
+					<input
+						type="date"
+						name="startDate"
+						id="startDate"
+						class="reg-form-input"
+					/>
+					<label for="dueDate" class="reg-form-label">Due date</label>
+					<input
+						type="date"
+						name="dueDate"
+						id="dueDate"
+						required
+						class="reg-form-input"
+					/>
+					<label for="description" class="reg-form-label">Description</label>
+					<textarea
+						name="description"
+						id="description"
+						class="description"
+					></textarea>
+				</fieldset>
+				<button type="submit" class="btn-submit">Create</button>
+			</form>
+		</main>
+	</body>
+</html>
